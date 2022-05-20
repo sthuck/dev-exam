@@ -14,6 +14,7 @@ While no previous background is required to complete this task or to apply to th
 1. Make sure you have *Node.js* 12 or higher and *npm* 6 or higher installed
 2. Install the project dependencies by running `npm install` from the project's directory (using a terminal)
 3. Run the project by running `npm start`. This runs both the server and the client.
+4. Notice this project uses lerna to manage the packages inside this monorepo. If you need to add dependencies please use `lerna add <pkg> <dependency>` command.
 
 You should now have the development version running on your computer and accessible via http://localhost:3000
 
